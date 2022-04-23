@@ -4,10 +4,20 @@ console.log(date);
 let year = date.getFullYear();
 console.log(year);
 
-document.querySelector('h1').textContent = year;
+// const myarray = ["Lesson 02:",
+// "Lesson 03:",
+// "Lesson 04:",
+// "Lesson 05:",
+// "Lesson 06:",
+// "Lesson 07:",
+// "Lesson 08:",
+// "Lesson 09:",
+// "Lesson 10:",
+// "Lesson 11:"
+// ];
 
-document.querySelector('div').innerHTML = '<h2>Subtitle</h2>';
+// function makelist(item) {
+//     document.querySelector('div').innerHTML += '<li> + ${item} + </li>'
+// }
 
-let newpara = document.createElement('p');
-newpara.textContent = 'This is a paragraph';
-document.querySelector('div').appendChild(newpara);
+// myarray.forEach(makelist);
