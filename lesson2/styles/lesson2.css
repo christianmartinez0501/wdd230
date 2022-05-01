@@ -1,0 +1,39 @@
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 1pt;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    padding: 1pt;
+    text-align: center;
+    background-color: rgb(120, 179, 138);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.small-title {
+    width: 100%;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;;
+    color: rgb(8, 8, 8);
+    background-color: rgb(100, 173, 100);
+}
+
+footer {
+    text-align: center;
+    background-color:  rgb(120, 179, 138);
+}
+
+
