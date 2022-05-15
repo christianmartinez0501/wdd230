@@ -1,5 +1,5 @@
-@media only screen and (min-width: 35rem) {
-    nav button {display: none;}
+@media only screen and (min-width: 600px) {
+    /* nav button {display: none;}
     
     nav ul#primaryNav {
         display: flex;
@@ -10,5 +10,50 @@
     nav ul li a {
         border: none;
         border-right: 1px solid black;
+    } */
+    #grid-container {
+        grid-template-columns: repeat(6, 1fr);
     }
+
+    #hero {
+        grid-column: 1/7;
+        grid-row: 1/2;
+    }
+    
+    #news {
+        grid-column: 1/7;
+        grid-row: 2/3;
+    }
+
+
+    #spotlight {
+        display: flex;
+        height: 220px;
+        grid-column: 1/7;
+        grid-row: 3/4;
+    }
+
+    #spot1, #spot2, #spot3 {
+        width: 100%;
+    }
+
+    #spot3 {
+        display: none;
+    }
+
+    #join {
+        grid-column: 1/7;
+        grid-row: 4/5;
+    }
+
+    #event {
+        grid-column: 1/5;
+        grid-row: 5/7;
+    }
+
+    #weather {
+        grid-column: 5/7;
+        grid-row: 5/7;
+    }
+
 }

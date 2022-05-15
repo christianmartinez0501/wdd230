@@ -14,4 +14,4 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 datefield.innerHTML = `<em>${fulldate}</em>`;
-document.getElementById("update").innerHTML =  "&copy2022 Idaho Falls Chamber | <b>Christian Martinez</b> | WDD 230 Project | " + document.lastModified;
+document.getElementById("update").innerHTML =  "Last Modification: " + document.lastModified;

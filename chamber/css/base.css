@@ -4,21 +4,18 @@
 	box-sizing: border-box;
 }
 body {
-    font-size: 16px;   
+    font-size: 16px; 
 
 }
 
 header, footer {
+    width: 100%;
     background-color:  #5A716A;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4pt 0;
-    border: 1px solid;
-}
-header, main, footer {
-    max-width: 767px;
-    margin: 0 auto;
+    
 }
 
 .head {
@@ -81,9 +78,10 @@ nav ul li a {
 
 nav ul {display: none;}
 nav ul.open {display: block;}
-main {
+#grid-container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 15px;
     font-size: .8rem;
 }
 main section {
@@ -93,5 +91,20 @@ main section {
     background-color: #eee;
 }
 footer {
+    text-align: center;
+    justify-content: center;
     padding: .5rem;
+    border-top: 1px solid;
 }
+
+#border {
+    border: 1px solid grey;
+}
+
+#logo2 {
+    align-items: center;
+    width: 100px;
+    height: auto;
+}
+
+
