@@ -11,24 +11,36 @@ body {
 header, footer {
     width: 100%;
     background-color:  #5A716A;
+    padding: 4pt 0;
+    /* display: flex; */
+}
+#topHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4pt 0;
     
 }
+#hamburgerbtn{
+    align-self: center;
+}
 
-.head {
-    display: flex;
-    flex-direction: column;
+
+.logo_title {
+    /* flex-direction: column; */
     margin-left: .5rem;
 }
 #logo {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+    margin: 1/2rem;
     width: 80px;
-    height: auto;
+}
+
+.primaryNav {
+    flex-direction: column;
+    position: fixed;
+    inset: 0 0 0 30%;
+    
 }
 
 .date {
@@ -36,6 +48,7 @@ header, footer {
     border: 1px solid #bbb;
     padding: .75rem;
     background-color: #eee;
+    align-content: center;
 }
 h1 {
     font-size: 1.5rem;
@@ -54,16 +67,17 @@ nav button {
     font-size: 2rem;
     color: black;
 }
-nav {
-    margin: 0 auto;
-    max-width: 780px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-}
+/* nav {
+    /* margin: 0 auto;
+    max-width: 780px; */
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); */
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
+
 }
 
 nav ul li a {
@@ -72,12 +86,21 @@ nav ul li a {
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
     transition: .5s;
 }
 
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: #eee;
+    color: #fff;
+} 
 nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul.open {display: block;} 
 #grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -88,9 +111,11 @@ main section {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
+    margin: 4pt;
     background-color: #eee;
 }
 footer {
+    align-items: center;
     text-align: center;
     justify-content: center;
     padding: .5rem;
@@ -107,4 +132,88 @@ footer {
     height: auto;
 }
 
+#hero {
+    background-image: url(/images/small.jpg);
+    background-size: cover;
+    min-height: 250px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+    font-weight: 700;
+    color: #fff;
+}
+
+#event {
+    background-image: url(/images/ribbonL.jpg);
+    background-size: cover;
+    min-height: 250px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+#weather{
+    min-height: 250px;
+    background-image: url("https://unsplash.it/600/400?image=1043&blur");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+    justify-content: center;
+}
+
+
+
+
+/*  CONTENT  */
+
+.content {
+    color: white;
+    font-weight: 700;
+}
+
+h1.temp {
+    margin-left: 8px;
+}
+.description {
+    text-transform: capitalize;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+/* .temp{   
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    left: 20px;
+    bottom: 5px;
+} */
+/* 
+#F{
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+} */
+
+
+/* .Time{
+    position: absolute;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    right: 20px;
+    top: 10px;
+} */
+/* 
+.locationIcon{
+    font-size: 10px !important;
+}
+
+.Location {
+    position: absolute;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    right: 20px;
+    bottom: 15px;
+} */
 

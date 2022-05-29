@@ -12,28 +12,63 @@
 </head>
 <body>
     <header>
-        <section class="head">
-            <img id="logo" src="images/logo.png" alt="logo">
-            <h1>Idaho Falls</h1>
-            <p class="small-title">Chamber of Commerce</p>
-        </section>
+        <div id="topHeader">
+            <section class="logo_title">
+                <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+                <h1>Idaho Falls</h1>
+                <p class="small-title">Chamber of Commerce</p>
+            </section>
+            
+            <nav id="menu">
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="primaryNav" >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="date"></div>
-        <nav id="menu">
-            <button id="hamburgerBtn">&#9776;</button>
-            <ul id="primaryNav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Discovery</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header>
+
+
+    
     <main id="grid-container">
-        <section id="hero">Hero</section>
-        <section id="join">Join</section>
-        <section id="event">Event</section>
-        <section id="weather">Weather</section>
+        <section id="hero">
+            <picture>
+                <!-- <source media="(min-width:900px)" srcset="/images/large.jpg">
+                <source media="(min-width:550px)" srcset="/images/medium.jpg">
+                <img src="images/small.jpg" alt="Idaho Falls water fall"> -->
+            </picture>
+            <h2>Welcome to Idaho Falls</h2>
+            
+        </section>
+        <section id="join">
+            <h2>TOGETHER WE CAN DO ANYTHING</h2>
+            <button id="joinBtn">Join Today</button>
+
+        </section>
+        <section id="event">
+            <h2>Ribbon Cutting</h2>
+            <p>The Dimond Shack</p>
+            <p>Join us for the grand opening at 1:00 p.m </p>
+        </section>
+        <section id="weather">
+            <div class="content">
+                <h2>Idaho Falls Weather</h2>
+                <div class="iconContainer">
+                    <img src='' alt='' class="weatherIcon"></img>
+                    <h1 class="temp"></h1>
+                </div>
+                <div class="description"></div>
+                <div class="humidity"></div>
+                <div class="wind"></div>
+                <div class="windChill"></div>
+                <div class="time"></div>
+            </div>
+        </section>
         <section id="news">News</section>
         <section id="spotlight">
             <section id="spot1">
@@ -62,6 +97,8 @@
             <div id="update"></div> 
         </section>
     </footer>
+    <script src="js/weather.js"></script>
     <script src="js/base.js"></script>
+    
 </body>
 </html>

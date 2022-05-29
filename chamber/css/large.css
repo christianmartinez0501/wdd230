@@ -3,13 +3,8 @@
     
     nav ul#primaryNav {
         display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid black;
-    }
-
-    nav ul li a {
-        border: none;
-        border-right: 1px solid black;
+        margin-inline-end: 0.75em;
+        gap: var(--gap, 7rem);
     }
     
     #grid-container {
