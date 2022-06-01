@@ -133,7 +133,7 @@ footer {
 }
 
 #hero {
-    background-image: url(/images/small.jpg);
+    background-image: url(../images/small.jpg);
     background-size: cover;
     min-height: 250px;
     box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
@@ -142,7 +142,7 @@ footer {
 }
 
 #event {
-    background-image: url(/images/ribbonL.jpg);
+    background-image: url(../images/ribbonL.jpg);
     background-size: cover;
     min-height: 250px;
     box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
