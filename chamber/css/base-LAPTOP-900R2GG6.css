@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-size: 16px; 
+
+}
+
+header, footer {
+    width: 100%;
+    background-color:  #5A716A;
+    /* display: flex; */
+    padding: 4pt 0;
+    
+}
+#topHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#hamburgerbtn{
+    /* align-self: center; */
+}
+
+.logo_title {
+    flex-direction: column;
+    margin-left: .5rem;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: 80px;
+    height: auto;
+}
+
+.date {
+    margin: .5rem;
+    border: 1px solid #bbb;
+    padding: .75rem;
+    background-color: #eee;
+    align-content: center;
+}
+h1 {
+    font-size: 1.5rem;
+}
+
+.small-title {
+    letter-spacing: 1pt;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+}
+/* nav {
+    /* margin: 0 auto;
+    max-width: 780px; */
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: #eee;
+    color: #fff;
+}
+nav ul {display: none;}
+nav ul.open {display: block;}
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    font-size: .8rem;
+}
+main section {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+}
+footer {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: .5rem;
+    border-top: 1px solid;
+}
+
+#border {
+    border: 1px solid grey;
+}
+
+#logo2 {
+    align-items: center;
+    width: 100px;
+    height: auto;
+}
+
+/* #hero {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+} */
+picture { 
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
