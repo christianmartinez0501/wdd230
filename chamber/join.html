@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Site">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="joincss/join.css">
+    <link rel="stylesheet" href="joincss/medium.css">
+    <link rel="stylesheet" href="joincss/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div id="topHeader">
+            <section class="logo_title">
+                <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+                <h1>Idaho Falls</h1>
+                <p class="small-title">Chamber of Commerce</p>
+            </section>
+            
+            <nav id="menu">
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="primaryNav" >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discovery.html">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div class="date"></div> -->
+    </header>
+
+
+    
+    <main id="grid-container">
+        <form method="GET" action="thankyou.html" autocomplete="on">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fname">First Name *:</label>
+                <input id="fname" name="first_name" required>
+
+                <label for="lname">Last Name *:</label>
+                <input id="lname" name="last_name" required>
+                
+                <label for="email">Email *:</label>
+                <input id="email" type='email' name="email" placeholder="username@example.com" required>
+
+                <label for="phone">Phone *:</label>
+                <input id="phone" type='tel' name="telephone" placeholder="(###) ###-####">
+
+                <label for="title">Title:</label>
+                <input id="title" name="title">
+            </fieldset>
+            <fieldset>
+                <legend>Company Information</legend>
+                <label for="bpt">Business Position Title:</label>
+                <input id="bpt" name="business_position" type="text" minlength="7" pattern="[- A-Za-z]+">
+            
+                <label for="business-title">Business Title *:</label>
+                <input id="business-title" name="business-title" required>
+                
+                <label for="business-desc">Business Description: </label>
+                <input id="busdesc" type="text" name="business-desc">
+            
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <label class="membership"><input type="radio" name="membership"> Non Profit</label>
+                <label class="membership"><input type="radio" name="membership"> Bronze</label>
+                <label class="membership"><input type="radio" name="membership"> Silver</label>
+                <label class="membership"><input type="radio" name="membership"> Gold</label>
+            </fieldset>
+
+            <input type="hidden" id="datetime" name="datetime" value="">
+            <button type="submit" value="submitform" id="submitbtn">Submit</button>
+        </form>
+        
+        <section id="membership_details">
+            <h1 id="benefits">Membership Level Benefits</h1>
+            <div id="membership_container">
+                <section class="small_container" id="np">
+                    <h2 class="membership_title">Non Profit Membership</h2>
+                    <li>For non profit organizations and there is no fee</li>
+                </section>
+                <section class="small_container" id="bronze">
+                    <h2 class="membership_title">Bronze Membership</h2>
+                    <li>15% discount on events</li>
+                    <li>10% discount on advertising</li>
+                    <li>Fee of $50/month</li>
+                </section>
+                <section class="small_container" id="silver">
+                    <h2 class="membership_title">Silver Membership</h2>
+                    <li>25% discount on events</li>
+                    <li>15% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>Fee of $100/month</li>
+                </section>
+                <section class="small_container" id="gold">
+                    <h2 class="membership_title">Gold Membership</h2>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>5 free featured ads per year</li>
+                    <li>1 free training per quarter</li>
+                    <li>Fee of $250/month</li>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+        <section id="bottom">
+            <img id="logo2" src="images/logo.png" alt="logo">
+            <h3>Idaho Falls Chamber of Commerce</h3>
+            <p>address</p>
+            <p>number</p>
+            <p>Location</p>
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <div id="border"></div>
+            <p>&copy2022 Idaho Falls Chamber</p>
+            <p><b>Christian Martinez</b></p>
+            <p>WDD 230 Project</p>
+            <div id="update"></div> 
+        </section>
+    </footer>
+    <script src="joinjs/join.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>
