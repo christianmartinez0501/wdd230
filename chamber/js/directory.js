@@ -18,13 +18,14 @@ function displayDirectory(directory) {  // Create elements to add to the documen
     h2.textContent = directory.name;
     p.textContent = directory.address; 
     p2.textContent = directory.phone;
-    a.href = directory.website;
+    a.textContent = directory.website;
     img.setAttribute('src', directory.imageurl); 
     // Add/append the section(card) with the h2 element
     card.appendChild(img);
     card.appendChild(h2);
     card.appendChild(p);
     card.appendChild(p2);
+    card.appendChild(a);
 
     
     // Add/append the existing HTML div with the cards class with the section(card)

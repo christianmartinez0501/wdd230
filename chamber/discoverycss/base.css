@@ -115,12 +115,26 @@ nav ul.open {display: block;}
 }
 
 
-main section {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+main h1 {
+    font-size: 36px;
     margin: 4pt;
+}
+main section {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8pt;
+    margin: 8pt;
     background-color: #eee;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main section h2{
+    display: none;
+} 
+main section img {
+    width: 100%;
+    
 }
 
 footer {
