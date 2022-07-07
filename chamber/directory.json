@@ -1,0 +1,89 @@
+ {
+    "directory": [
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+
+        },
+        {
+            "name": "Micron",
+            "address": "8000 South Federal Way, Boise, Idaho 83707-0006",
+            "phone": "(208) 368-4000",
+            "website": "https://www.micron.com",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Wizards of the Coast",
+            "address": "1600 Lind Ave SW, Renton, WA 98057",
+            "phone": "(425) 226-6500",
+            "website": "https://magic.wizards.com/en/products/streets-of-new-capenna",
+            "imageurl": "https://play-lh.googleusercontent.com/VRGw0kX0NUif5-W3JBC1ZvSVNUFmG6wCqNPIbL_52vbuPk8SEoHLH0p9RTekMnKURP2U"
+        },
+        {
+            "name": "Intel",
+            "address": "Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1537",
+            "phone": "(408) 765-8080",
+            "website": "https://www.intel.com/content/www/us/en/homepage.html",
+            "imageurl": "https://cdn.freebiesupply.com/logos/thumbs/2x/intel-logo.png"
+        },
+        {
+            "name": "Nvidia",
+            "address": "2788 San Tomas Expressway Santa Clara, CA. 95050",
+            "phone": "(503) 444-555",
+            "website": "https://www.nvidia.com/en-us/",
+            "imageurl": "https://avatars.githubusercontent.com/u/1728152?s=200&v=4"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        },
+        {
+            "name": "Nike",
+            "address": "One Bowerman Dr, Beaverton, OR 97005",
+            "phone": "(503) 671-6453",
+            "website": "https://www.nike.com/",
+            "imageurl": "https://cdn.iconscout.com/icon/free/png-256/nike-1-202653.png"
+        }
+    ]
+ }

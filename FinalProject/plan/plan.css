@@ -1,0 +1,36 @@
+
+
+header {
+    background-color: lightgreen;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+}
+
+.first-color {
+    background-color: #5A716A;
+}
+
+.second-color {
+    background-color: #CDFFF9;
+}
+.third-color {
+    background-color: #563440;
+}
+.fourth-color {
+    background-color: #9893DA;
+}
+.fifth-color {
+    background-color: #757761;
+}
