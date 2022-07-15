@@ -21,31 +21,32 @@
             <ul id="primaryNav" >
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signup.html">Sign in</a></li>
                 <li><a href="library.html">Library</a></li>
-                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main id="grid-container">
-        <section id="signup">
-            <button id="signUpBtn"><a href="signup.html">Sign Up</a></button>
-            <p>
-               Sign up for a free account to gain access to make reviews on books, make friends, or buy books in the store. 
-            </p>
-        </section>
+        <form method="GET" action="thankyou.html" autocomplete="on">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fname">First Name *:</label>
+                <input id="fname" name="first_name" required>
 
-        <section id="discover">
-            <button id="discoverBtn"><a href="discover.html">Discover</a></button>
-            <p>
-                Discover a new book to read this month!
-            </p>
-        </section>
+                <label for="lname">Last Name *:</label>
+                <input id="lname" name="last_name" required>
+                
+                <label for="email">Email *:</label>
+                <input id="email" type='email' name="email" placeholder="username@example.com" required>
 
-        <section id="search">
-            <input type="text" placeholder="Search..." id="searchBar">
-        </section>
+                <label for="phone">Phone *:</label>
+                <input id="phone" type='tel' name="telephone" placeholder="(###) ###-####">
+            </fieldset>
+
+            <input type="hidden" id="datetime" name="datetime" value="">
+            <button type="submit" value="submitform" id="submitbtn">Submit</button>
+        </form>
     </main>
 
     <footer>
