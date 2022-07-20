@@ -3,6 +3,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    #sign-grid-container {
+        grid-template-columns: 1fr;
+    }
     #search {
         grid-column: span 2/2;
     }
